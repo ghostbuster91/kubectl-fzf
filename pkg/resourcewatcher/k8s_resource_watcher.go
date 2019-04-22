@@ -17,6 +17,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	// Import for oidc auth
 	_ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
+	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/cache"
 )
